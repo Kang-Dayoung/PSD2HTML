@@ -1,0 +1,27 @@
+/*
+google 웹폰트 적용
+http://www.google.com/fonts/earlyaccess
+*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*
+HTML 문서의 본문(body) 요소를 찾아서 (선택해서) 꾸며줍니다.
+*/
+
+body {
+	/* 디자인 가이드 라인으로 쓸 베이스라인 배경 이미지 삽입 */
+	 background-image: url(../images/baseline_21.gif);
+
+	 /* 본문 텍스트에 대한 디자인(설계) */
+	 font-family: "Nanum Gothic", "돋움";
+	 /*font-weight: bold;*/
+	 font-size: 14px; 
+	 letter-spacing: -0.02em;
+	 color: #3b494e;
+	 line-height: 1.5;
+}
+
+p {
+	margin-bottom: 21px;
+}
