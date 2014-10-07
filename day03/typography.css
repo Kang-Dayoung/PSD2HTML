@@ -10,6 +10,7 @@ HTML 문서의 본문(body) 요소를 찾아서 (선택해서) 꾸며줍니다.
 */
 
 body {
+	margin: 0;
 	/* 디자인 가이드 라인으로 쓸 베이스라인 배경 이미지 삽입 */
 	 background-image: url(../images/baseline_21.gif);
 
@@ -23,5 +24,6 @@ body {
 }
 
 p {
+	margin-top: 0px;
 	margin-bottom: 21px;
 }
